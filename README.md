@@ -1,7 +1,7 @@
 # Crew-AI-blog-writer-
 This project automates the process of researching and writing blog content using YouTube video transcripts. The system consists of two agents, a Blog Researcher and a Blog Writer, which collaborate to extract relevant information from YouTube videos and craft a compelling blog post.
 
-Features
+Features:
 
 Blog Researcher: Extracts relevant video transcriptions from YouTube for a given topic.
 
