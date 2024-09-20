@@ -31,23 +31,23 @@ To set up and run the project, follow these steps:
 
 Clone the repository:
 
-bash
+    ''''bash
 
-git clone https://github.com/yourusername/ai-blog-content-creator.git
+    git clone https://github.com/yourusername/ai-blog-content-creator.git
 
-cd ai-blog-content-creator
+    cd ai-blog-content-creator
 
 Install dependencies: Make sure you have Python 3.8+ installed, then run:
 
-bash
+    ''''bash
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 Set up environment variables: Create a .env file in the root directory with the following:
 
-bash
+    ''''bash
 
-OPENAI_API_KEY=your_openai_api_key
+    OPENAI_API_KEY=your_openai_api_key
 
 How to Use
 
@@ -55,14 +55,14 @@ Run the Project: The main logic can be executed by running a Python script. This
 
 Example usage:
 
-bash
+    ''''bash
 
-python your_script_name.py
+    python your_script_name.py
 
 Task Execution: The project supports sequential execution of tasks. The blog_researcher agent will first gather video data, and the blog_writer will use that data to generate the blog content.
 
-python
+    ''''python
 
-result = crew.kickoff(inputs={'topic': 'AI vs ML vs DL vs Data Science'})
+    result = crew.kickoff(inputs={'topic': 'AI vs ML vs DL vs Data Science'})
 
-print(result)
+    print(result)
